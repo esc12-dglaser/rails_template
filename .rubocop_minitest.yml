@@ -1,0 +1,16 @@
+require:
+  - standard
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+inherit_gem:
+  standard: conifg/base.yml
+AllCops:
+  NewCops: enable
+  Exclude:
+    - node_modules/**/*
+    - db/**/*
+    - script/**/*
+    - bin/**/*
+    - public/**/*
+
