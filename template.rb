@@ -1,7 +1,7 @@
-# {
+# { EXAMPLE 
 #   "skip_namespace"=>false, 
 #   "skip_collision_check"=>false, 
-#   "ruby"=>"/home/doctor/.rbenv/versions/3.2.2/bin/ruby", 
+#   "ruby"=>"/home/{username}/.rbenv/versions/3.2.2/bin/ruby", 
 #   "database"=>"sqlite3", "skip_git"=>false, 
 #   "skip_keeps"=>false, 
 #   "skip_action_mailer"=>false, 
@@ -27,7 +27,6 @@
 #   "template"=>"rails_template/template.rb"
 # }
 
-puts @options
 
 require "fileutils"
 require "shellwords"
